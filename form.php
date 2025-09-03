@@ -40,18 +40,25 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message .= "</body></html>";
 
     // SMTP Details
-    $mail = new PHPMailer(true);
+    // $mail = new PHPMailer(true);
 
     try {
         //Server settings
-        $mail->isSMTP();
-        $mail->Host = 'smtp.dreamhost.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'contact@drcoders.com';
-        $mail->Password = '^qTTONt8FUW*4tqO';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port = 465; // Use Port 465 for SSL
+        // $mail->isSMTP();
+        // $mail->Host = 'smtp.dreamhost.com';
+        // $mail->SMTPAuth = true;
+        // $mail->Username = 'contact@drcoders.com';
+        // $mail->Password = '^qTTONt8FUW*4tqO';
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        // $mail->Port = 465; // Use Port 465 for SSL
        
+        $mail = new PHPMailer();
+         $mail->isSMTP(); 
+         $mail->Host = 'sandbox.smtp.mailtrap.io'; 
+         $mail->SMTPAuth = true;
+          $mail->Port = 2525; 
+          $mail->Username = '9a513c42a4eec5'; 
+          $mail->Password = '9f0731d7f55042';
 
         //Recipients
         $mail->setFrom('contact@drcoders.com', 'Feedback message');
