@@ -1,0 +1,500 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Google Fonts ----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--white: #fff;
+	--black: #000000;
+	--dark: #DFCBC4;
+	--gray: #8C8C8C;
+	--lightgray: #757575;
+}
+
+figure {
+	margin: 0;
+}
+
+body {
+	font-family: "Asap", sans-serif;
+	background-color: var(--white);
+	color: var(--gray);
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 133%;
+}
+
+a,
+input,
+button,
+textarea {
+	outline: none !important;
+}
+
+a {
+	text-decoration: none;
+	transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+}
+
+.container-fluid,
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row>* {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+p {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	font-weight: inherit;
+}
+
+p a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p a:hover {
+	text-decoration: none;
+	color: #8C8C8C;
+}
+
+ul li,
+ol li {
+	font-size: 24px;
+	line-height: 36px;
+	color: #8C8C8C;
+}
+
+ul li a,
+ol li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul li a:hover,
+ol li a:hover {
+	text-decoration: none;
+	color: #8C8C8C;
+}
+
+h1 {
+	font-size: 74px;
+	line-height: 112px;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 74px;
+	line-height: 88px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 56px;
+	line-height: 84px;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 48px;
+	line-height: 72px;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: 21px;
+	line-height: 40px;
+	font-weight: 400;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: transparent;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+textarea {
+	resize: none;
+}
+
+/* buttons */
+.common-btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 45px;
+	background: var(--dark);
+	box-shadow: 0 86px 24px 0 rgba(0, 0, 0, 0.00), 0 55px 22px 0 rgba(0, 0, 0, 0.01), 0 31px 19px 0 rgba(0, 0, 0, 0.05), 0 14px 14px 0 rgba(0, 0, 0, 0.09), 0 3px 8px 0 rgba(0, 0, 0, 0.10);
+	padding: 15px 20px;
+	color: var(--white);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 100%;
+}
+
+.common-btn:hover {
+	background: var(--white);
+	color: var(--dark);
+}
+
+/* buttons */
+
+/* common style */
+.main-title {
+	color: var(--black);
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 108%;
+}
+
+.main-title * {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	font-weight: inherit;
+	margin: 0;
+}
+
+/* common style */
+
+/*==================================================================*/
+/*========== Header Start ==========*/
+/*==================================================================*/
+.header {
+	padding: 30px 40px 0 50px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+	transition: 0.3s;
+}
+
+.header.fixed{
+	background: #EFDED6;
+	padding-bottom: 15px;
+}
+
+.navbar-brand {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+}
+
+.header-right .common-btn {
+	margin-right: 20px;
+}
+
+.header-right ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header-right ul li {
+	color: var(--lightgray);
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 117%;
+}
+
+.header-right ul li a{
+	text-decoration-line: underline;
+}
+
+.header-right ul li a:hover{
+	opacity: 0.7;
+}
+
+/*==================================================================*/
+/*========== Header End ==========*/
+/*==================================================================*/
+
+
+/* banner */
+.bgimg {
+	background-image: url('../images/bgimg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-content {
+	padding: 0 72px;
+}
+
+.banner-left .main-title {
+	width: 100%;
+	max-width: 657px;
+}
+
+.banner-left-bottom {
+	width: 100%;
+	max-width: 592px;
+	margin: 30px 0 0;
+}
+
+.banner-left-bottom .common-detail strong {
+	font-weight: 700;
+}
+
+.banner {
+	height: 100vh;
+}
+
+.banner-right * {
+	height: 100vh;
+}
+
+.banner-left-bottom {
+	padding-left: 20px;
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.banner-left .main-title {
+	padding-left: 20px;
+}
+
+.banner-left-bottom .btn-group {
+	display: flex;
+	margin-top: 50px;
+}
+
+.banner-left-bottom .btn-group>*:not(:last-child) {
+	margin-right: 20px;
+}
+
+.banner-right {
+	position: relative;
+	left: -85px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.banner-left-bottom .btn-group>* {
+	box-shadow: 0 20px 28px 0 rgba(0, 0, 0, 0.20);
+}
+
+.banner-left-bottom .common-detail > *:not(:last-child){
+	margin-bottom: 30px;
+}
+/* banner */
+
+/* modal */
+.modal-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 30px 23px;
+	position: relative;
+	z-index: 99;
+}
+
+.vectorshape {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.modal-dialog {
+	max-width: 873px;
+	padding: 10px;
+}
+
+.modal-title * {
+	color: var(--black);
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 108%;
+	margin: 0;
+}
+
+.modal .btn-close {
+	width: 47px;
+	height: 47px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: #EFDED6;
+	opacity: 1;
+	padding: 0;
+	box-shadow: none;
+}
+
+.modal-content {
+	border-radius: 30px;
+	padding: 0 30px 40px 15px;
+}
+
+.welcomebackmodal .modal-content {
+	padding: 0 35px 35px;
+}
+
+.common-form .form-group .form-control {
+	border: none;
+	padding: 17px 50px 17px 30px;
+	border-radius: 70px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+	background: var(--white);
+}
+
+.common-form .form-group .form-control::placeholder {
+	color: rgba(117, 117, 117, 0.5);
+	font-family: "Asap", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 100%;
+}
+
+.common-form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.common-form .form-group::after {
+	position: absolute;
+	content: "";
+	width: 56px;
+	height: 2px;
+	background: #BE1622;
+	left: 30px;
+	top: 57px;
+}
+
+.inputimg {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.textareagroup .form-control {
+	padding: 12px 30px 50px !important;
+	border-radius: 20px !important;
+}
+
+.modal .submit-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.modal .submit-btn button {
+	border: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 15px 42px;
+	border-radius: 45px;
+	background: #1D1D1B;
+	box-shadow: 0 86px 24px 0 rgba(0, 0, 0, 0.00), 0 55px 22px 0 rgba(0, 0, 0, 0.01), 0 31px 19px 0 rgba(0, 0, 0, 0.05), 0 14px 14px 0 rgba(0, 0, 0, 0.09), 0 3px 8px 0 rgba(0, 0, 0, 0.10);
+	color: var(--white);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 100%;
+	text-transform: capitalize;
+}
+
+.modal .submit-btn button:hover {
+	background: var(--dark);
+}
+
+.textareagroup::after {
+	top: 109px !important;
+	left: 30px !important;
+}
+
+.modal-body {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.modal-info * {
+	color: var(--lightgray);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 133%;
+}
+
+.modal-info>*:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.welcomebackmodal .modal-body{
+	padding-left: 30px;
+}
+
+.modal{
+	z-index: 9999;
+}
+/* modal */
+
+
+/*==================================================================*/
+/*========== New Class Add Start ==========*/
+/*==================================================================*/
+
+/*==================================================================*/
+/*========== New Class Add End ==========*/
+/*==================================================================*/
+
+
+/*==================================================================*/
+/*========== Footer Start ==========*/
+/*==================================================================*/
+
+/*==================================================================*/
+/*========== Footer End ==========*/
+/*==================================================================*/

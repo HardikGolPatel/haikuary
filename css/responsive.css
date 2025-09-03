@@ -1,0 +1,209 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1700px) and (max-width: 1799px){
+    /* banner */
+    .main-title{font-size: 46px;}
+    .banner-left{max-width: 600px;}
+    /* banner */
+}
+
+@media (min-width: 1600px) and (max-width: 1699px){
+    /* banner */
+    .main-title{font-size: 38px;}
+    .banner-left{max-width: 500px;}
+    .banner-right img{height: 95vh;}
+    .banner-right figure{display: flex; align-items: center; justify-content: center;}
+    /* banner */
+}
+
+@media (min-width: 1500px) and (max-width: 1599px){
+    /* banner */
+    .main-title{font-size: 38px;}
+    .banner-left{max-width: 500px;}
+    .banner-right img{height: 95vh;}
+    .banner-right figure{display: flex; align-items: center; justify-content: center;}
+    /* banner */
+}
+
+@media (min-width: 1400px) and (max-width: 1499px){
+    /* header */
+    .header{padding: 20px 30px;}
+    /* header */
+
+    /* banner */
+    .banner-content{padding: 0 50px;}
+    .main-title{font-size: 34px;}
+    .banner-left{max-width: 450px;}
+    .banner-right img{height: 90vh;}
+    .banner-right figure{display: flex; align-items: center; justify-content: center;}
+    /* banner */
+}
+
+@media (min-width: 1300px) and (max-width: 1399px){
+    /* common style */
+    body{font-size: 18px;}
+    /* common style */
+
+    /* header */
+    .header{padding: 20px 30px;}
+    /* header */
+
+
+    /* banner */
+    .banner{overflow: hidden;}
+    .main-title{font-size: 30px;}
+    .banner-left{max-width: 410px;}
+    .banner-content{padding: 0 45px;}
+    .banner-right img{height: 85vh;}
+    .banner-right figure{display: flex; align-items: center; justify-content: center;}
+    /* banner */
+}
+
+@media (min-width: 1200px) and (max-width: 1299px){
+    /* common style */
+    body{font-size: 18px;}
+    /* common style */
+
+    /* header */
+    .header{padding: 15px 30px;}
+    .navbar-brand{max-width: 200px;}
+    /* header */
+
+
+    /* banner */
+    .banner{overflow: hidden;}
+    .main-title{font-size: 28px;}
+    .banner-left{max-width: 400px;}
+    .banner-content{padding: 0 30px;}
+    .banner-right img{max-width: 800px;}
+    .banner-content{padding: 0 30px;}
+    .banner-right img{height: 80vh;}
+    .banner-right figure{display: flex; align-items: center; justify-content: center;}
+    /* banner */
+}
+
+@media (min-width: 992px) and  (max-width: 1199px){
+    /* common style */
+    body{font-size: 18px;}
+    /* common style */
+
+    /* header */
+    .header{padding: 20px 30px;}
+    .navbar-brand{max-width: 200px;}
+    /* header */
+
+
+    /* banner */
+    .banner{height: auto;}
+    .main-title{font-size: 28px;}
+    .banner-left{max-width: 500px; margin: 0 auto;}
+    .banner-content{padding: 120px 40px 0;}
+    .banner-right img{max-width: 550px; margin: 0 auto;}
+    .banner-right{ left: 50%; transform: translateX(-50%); }
+    .banner-right *{height: auto;}
+    /* banner */
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /* common style */
+    body{font-size: 18px;}
+    /* common style */
+
+    /* header */
+    .header{padding: 20px 30px;}
+    .navbar-brand{max-width: 160px;}
+    /* header */
+
+
+    /* banner */
+    .banner{height: auto;}
+    .main-title{font-size: 28px;}
+    .banner-left{max-width: 500px; margin: 0 auto;}
+    .banner-content{padding: 120px 40px 0;}
+    .banner-right img{max-width: 550px; margin: 0 auto;}
+    .banner-right{ left: 50%; transform: translateX(-50%); }
+    .banner-right *{height: auto;}
+    /* banner */
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+    /* common style */
+    body{font-size: 18px;}
+    .common-btn{padding: 10px 20px; font-size: 18px;}
+    /* common style */
+
+    /* header */
+    .header{padding: 20px 10px 0 40px;}
+    .navbar-brand{max-width: 160px;}
+    .header-right{flex-direction: column; align-items: flex-end;}
+    .header-right .common-btn {margin-right: 0; margin-bottom: 15px;}
+    .header-content{align-items: flex-start;}
+    /* header */
+
+
+    /* banner */
+    .banner{height: auto; overflow: hidden;}
+    .main-title{font-size: 40px; font-weight: 700;}
+    .banner-left{max-width: 500px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 99;}
+    .banner-content{padding: 120px 0 0;}
+    .banner-right img{max-width: 520px; width: 520px; height: 520px; position: relative; left: 50%; transform: translateX(-50%);}
+    .banner-right{ left: 50%; transform: translateX(-50%); margin-top: -15px;}
+    .banner-left-bottom{padding-top: 12px;}
+    .banner-right figure{height: auto;}
+    .banner-left-bottom .btn-group{margin-top: 30px;}
+    /* banner */
+
+    /* modal */
+    .modal-top{padding: 30px 20px 30px 40px;}
+    .modal-content {padding: 0 5px 30px;}
+    .modal-title *{font-size: 40px; font-weight: 500;}
+    .modal .btn-close{width: 20px; height: 20px; padding: 12px;} 
+    .common-form .form-group{margin-bottom: 20px;}
+    .welcomebackmodal .modal-body{padding-left: 0; padding-right: 0;}
+    .welcomebackmodal .modal-content {padding: 0 20px 10px;}
+     .welcomebackmodal .modal-top{padding-left: 0; padding-right: 0;}
+     .textareagroup .form-control {min-height: 30px; padding: 12px 20px 0px 30px !important;}
+     .textareagroup::after {top: 59px !important; left: 30px !important;}
+    /* modal */
+}
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+@media (min-width: 576px) and (max-width: 767px){
+}
+
+@media (min-width: 240px) and (max-width: 575px){
+}
+
+@media (max-width: 420px){
+    /* header */
+    .header{padding: 20px 10px 0;}
+    .navbar-brand{max-width: 130px;}
+    /* header */
+
+    /* banner */
+    .main-title{font-size: 28px; font-weight: 700;}
+    .banner-right img{max-width: 420px; width: 420px; height: 420px; position: relative; left: 50%; transform: translateX(-50%);}
+    .banner-right{ left: 50%; transform: translateX(-50%); margin-top: -15px;}
+    .banner-left-bottom{padding-top: 12px;}
+    .banner-right figure{height: auto;}
+    /* banner */
+
+    /* modal */
+    .modal-top{padding: 20px 10px 20px 20px;}
+    .modal-content {padding: 0 5px 20px;}
+    .modal-title *{font-size: 34px; font-weight: 500;}
+    .modal .btn-close{width: 20px; height: 20px; padding: 12px;} 
+    .common-form .form-group{margin-bottom: 20px;}
+    .common-form .form-group .form-control::placeholder{font-size: 14px;}
+    /* modal */
+}
+
+

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Title</title>
+	<meta name="description" content="" />
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/site.webmanifest">
+	<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--=== Add By Designer ===-->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="fonts/fonts.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- Font Awesome -->
+	<link href="css/all.min.css" rel="stylesheet">
+	<!--=== Windows Phone JS Code Start ===-->
+	<script>
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement('style')
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					'@-ms-viewport{width:auto!important}'
+				)
+			)
+			document.querySelector('head').appendChild(msViewportStyle)
+		}
+	</script>
+	<!--=== Windows Phone JS Code End ===-->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+	<div class="bgimg">
+		<!-- header start -->
+		<header class="header">
+			<div class="header-content">
+				<a class="navbar-brand" href="index.html">
+					<figure><img src="images/logo.svg" alt="logo" class="img-fluid"></figure>
+				</a>
+				<div class="header-right">
+					<a href="#" class="common-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</a>
+					<ul>
+						<li><a href="#" data-bs-toggle="modal" data-bs-target=".welcomebackmodal">Previous user?</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- content start -->
+		<div class="content">
+
+			<!-- banner -->
+			<div class="banner">
+				<div class="banner-content">
+					<div class="row align-items-center">
+						<div class="col-xl-5 col-lg-12">
+							<div class="banner-left">
+								<div class="main-title">
+									<h1>Capture life’s tiny moments, in just seventeen beats</h1>
+								</div>
+								<div class="banner-left-bottom">
+									<div class="common-detail">
+										<p>Life can sometimes move quickly and the smallest moments can slip away unless
+											we preserve them.</p>
+										<p><strong>haikuary</strong> <em>(haiku diary)</em> is a place to pause,
+											reflect, and capture life’s fleeting moments in short, timeless poems.</p>
+									</div>
+									<div class="btn-group">
+										<a href="#">
+											<figure><img src="images/appstore.png" alt="appstore" class="img-fluid">
+											</figure>
+										</a>
+										<a href="#">
+											<figure><img src="images/google.png" alt="google" class="img-fluid">
+											</figure>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-7 col-lg-12">
+							<div class="banner-right">
+								<figure>
+									<img src="images/bannermobile.png" alt="mobile" class="d-md-flex d-none">
+									<img src="images/mobilebannermobile.png" alt="mobile" class="d-md-none d-flex">
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner -->
+
+		</div>
+	</div>
+	<!-- content end -->
+
+	<!-- footer start -->
+	<footer class="footer">
+	</footer>
+	<!-- footer end -->
+
+	<!-- modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<img src="images/vector.svg" alt="vector" class="img-fluid d-md-block d-none vectorshape">
+				<img src="images/mobilevector.svg" alt="vector" class="img-fluid d-md-none d-block vectorshape">
+				<div class="modal-top">
+					<div class="modal-title">
+						<h2>Contact</h2>
+					</div>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<img src="images/closemodal.svg" alt="close-icon" class="img-fluid">
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="" class="common-form" method="POST" id="contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" id="exampleInputText" placeholder="Name"
+										name="name">
+									<img src="images/user.svg" alt="user" class="img-fluid inputimg">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="email" class="form-control" id="exampleInputEmail" placeholder="Email"
+										name="email">
+									<img src="images/email.svg" alt="user" class="img-fluid inputimg">
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="exampleInputText1"
+										placeholder="Username (if you have one)" name="username">
+									<img src="images/user.svg" alt="user" class="img-fluid inputimg">
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-group textareagroup">
+									<textarea class="form-control" id="exampleTextarea" placeholder="Query/Feedback"
+										name="message"></textarea>
+									<img src="images/message.svg" alt="message" class="img-fluid inputimg">
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="submit-btn">
+									<button type="submit" class="" id="zi-submit">Submit</button>
+								</div>
+							</div>
+						</div>
+						<div id="successSend" class="alert alert-success d-none clearfix">
+							<strong>Success! Your feedback message has been received.</strong> Thank you for your feedback.
+						</div>
+						<div id="errorSend" class="alert alert-danger d-none clearfix">
+							<strong>Error!</strong> There was a problem. Please try again later.
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal -->
+
+	<!-- modal -->
+	<div class="modal fade welcomebackmodal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<img src="images/vector.svg" alt="vector" class="img-fluid d-md-block d-none vectorshape">
+				<img src="images/mobilevector.svg" alt="vector" class="img-fluid d-md-none d-block vectorshape">
+				<div class="modal-top">
+					<div class="modal-title">
+						<h2>Welcome back</h2>
+					</div>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<img src="images/closemodal.svg" alt="close-icon" class="img-fluid">
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="modal-info">
+						<p>haikuary began in 2011, and some things have changed since then.</p>
+						<p>Most people no longer write their haiku on the web, so haikuary has moved into a beautiful
+							new app. It’s still a personal project, but no longer invitation-only; ready to grow as I
+							had always hoped.</p>
+						<p>Your original haiku are preserved. Just download the app, sign in with your original email,
+							reset your password, and your haiku diary will appear with all your haiku and dates intact.
+						</p>
+						<p>Images for your old haiku will be random, but you can always change them. Any new haiku you
+							write can include your own photographs, or you can choose from a series of calming images to
+							match your theme.</p>
+						<p>Thank you for being one of the original members and here’s to many more years of haikuary.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal -->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+	<!-- ofi -->
+	<script src="js/ofi.min.js"></script>
+	<script src="js/sendmail.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
