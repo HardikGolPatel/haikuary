@@ -51,6 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->Password = '^qTTONt8FUW*4tqO';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465; // Use Port 465 for SSL
+       
 
         //Recipients
         $mail->setFrom('contact@drcoders.com', 'Feedback message');
@@ -61,11 +62,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isHTML(true);
         $mail->Subject = $subject;
         $mail->Body = $message;
-
         $mail->send();
         $response['success'] = true;
         $response['message'] = "Success, Your feedback message received. Thank you!";
     } catch (Exception $e) {
+        
         $response['success'] = false;
         $response['message'] = "Error: Unable to send email. Please try again later. Mailer Error: {$mail->ErrorInfo}";
     }
