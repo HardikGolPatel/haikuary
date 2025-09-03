@@ -2,7 +2,7 @@
 @media (min-width: 1700px) and (max-width: 1799px){
     /* banner */
     .main-title{font-size: 46px;}
-    .banner-left{max-width: 600px;}
+    .banner-left{max-width: 600px;} 
     /* banner */
 }
 
@@ -144,6 +144,7 @@
     .header-right{flex-direction: column; align-items: flex-end;}
     .header-right .common-btn {margin-right: 0; margin-bottom: 15px;}
     .header-content{align-items: flex-start;}
+    .header-right ul{margin-right: 5px;}
     /* header */
 
 
@@ -168,7 +169,7 @@
     .welcomebackmodal .modal-body{padding-left: 0; padding-right: 0;}
     .welcomebackmodal .modal-content {padding: 0 20px 10px;}
      .welcomebackmodal .modal-top{padding-left: 0; padding-right: 0;}
-     .textareagroup .form-control {min-height: 30px; padding: 12px 20px 0px 30px !important;}
+     .textareagroup .form-control {min-height: 30px; padding: 12px 50px 0px 30px !important;}
      .textareagroup::after {top: 59px !important; left: 30px !important;}
     /* modal */
 }
