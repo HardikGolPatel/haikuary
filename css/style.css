@@ -11,7 +11,7 @@
 	--dark: #DFCBC4;
 	--gray: #8C8C8C;
 	--lightgray: #757575;
-}
+} 
 
 figure {
 	margin: 0;
@@ -480,6 +480,13 @@ textarea {
 	z-index: 9999;
 }
 /* modal */
+
+/* error */
+.common-form .form-group .error{
+	color: red;
+	font-size: 16px;
+}
+/* error */
 
 
 /*==================================================================*/

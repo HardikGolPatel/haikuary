@@ -40,10 +40,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message .= "</body></html>";
 
     // SMTP Details
+    
     // $mail = new PHPMailer(true);
 
     try {
         //Server settings
+
         // $mail->isSMTP();
         // $mail->Host = 'smtp.dreamhost.com';
         // $mail->SMTPAuth = true;
