@@ -262,7 +262,7 @@ textarea {
 
 /* banner */
 .bgimg {
-	background-image: url('../images/bgimg.png');
+	background-image: url('../images/bgimg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -505,3 +505,4 @@ textarea {
 /*==================================================================*/
 /*========== Footer End ==========*/
 /*==================================================================*/
+

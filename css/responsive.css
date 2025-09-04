@@ -132,7 +132,7 @@
 @media (min-width: 768px) {
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) { 
     /* common style */
     body{font-size: 18px;}
     .common-btn{padding: 10px 20px; font-size: 18px;}
@@ -151,7 +151,7 @@
     /* banner */
     .banner{height: auto; overflow: hidden;}
     .main-title{font-size: 40px; font-weight: 700;}
-    .banner-left{max-width: 500px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 99;}
+    .banner-left{margin: 0 auto; padding: 0 20px; position: relative; z-index: 99;}
     .banner-content{padding: 120px 0 0;}
     .banner-right img{max-width: 520px; width: 520px; height: 520px; position: relative; left: 50%; transform: translateX(-50%);}
     .banner-right{ left: 50%; transform: translateX(-50%); margin-top: -15px;}
@@ -190,7 +190,7 @@
     /* header */
 
     /* banner */
-    .main-title{font-size: 28px; font-weight: 700;}
+    .main-title{font-size: 24px; font-weight: 700;}
     .banner-right img{max-width: 420px; width: 420px; height: 420px; position: relative; left: 50%; transform: translateX(-50%);}
     .banner-right{ left: 50%; transform: translateX(-50%); margin-top: -15px;}
     .banner-left-bottom{padding-top: 12px;}
