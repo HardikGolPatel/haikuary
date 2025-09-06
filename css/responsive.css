@@ -81,6 +81,11 @@
     /* banner */
 }
 
+@media (max-width: 1199px){
+    .privacy-policy-link{position: relative; right: unset; bottom: unset;}
+    .header-right ul li:not(:last-child){margin-bottom: 5px;}
+}
+
 @media (min-width: 992px) and  (max-width: 1199px){
     /* common style */
     body{font-size: 18px;}
@@ -152,7 +157,7 @@
     .banner{height: auto; overflow: hidden;}
     .main-title{font-size: 40px; font-weight: 700;}
     .banner-left{margin: 0 auto; padding: 0 20px; position: relative; z-index: 99;}
-    .banner-content{padding: 120px 0 0;}
+    .banner-content{padding: 130px 0 0;}
     .banner-right img{max-width: 520px; width: 520px; height: 520px; position: relative; left: 50%; transform: translateX(-50%);}
     .banner-right{ left: 50%; transform: translateX(-50%); margin-top: -15px;}
     .banner-left-bottom{padding-top: 12px;}
@@ -180,7 +185,7 @@
 @media (min-width: 576px) and (max-width: 767px){
 }
 
-@media (min-width: 240px) and (max-width: 575px){
+@media (min-width: 240px) and (max-width: 575px){ 
 }
 
 @media (max-width: 420px){
